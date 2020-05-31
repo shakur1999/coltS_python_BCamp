@@ -1,0 +1,30 @@
+import requests
+
+# DNS lookup (changing domain names to an IP address)
+# Computer makes a reqeuest ot he server
+# Server process the reqeuest
+# Server comes back with a response
+
+# HTTP Headers
+# sent with both requets and response
+# provide additonal infomation 
+
+# Status code
+# 200 = success
+# 300 = redirect
+# 400 = client error (user fault)
+# 500 = server error (server side, not users)
+
+# requesting basic website response/status
+# url = "https://google.com/api"
+# response = requests.get(url)
+
+# print(f"your request to {url} came back with status code of {response.status_code}")
+
+# =====================================================================================
+
+url = ("https://icanhazdadjoke.com")
+response = requests.get(url, headers = {"Accept": "text/plain"})
+
+print(response.text)
+
