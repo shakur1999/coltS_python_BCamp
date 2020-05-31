@@ -15,7 +15,7 @@ colorize([], 'cyan')
 
 
 def get(d, key):
-    
+
     try:
         return d[key]
     except keyError:
@@ -50,7 +50,7 @@ def add_numbers(a, b, c, d):
 add_numbers(1, 2, 3, 4)
 
 # ===================
-# NOTES  NOTES  NOTES
+# USEFUL NOTES  NOTES  NOTES
 # ===================
 # import pdb
 # pdb.set_trace()
