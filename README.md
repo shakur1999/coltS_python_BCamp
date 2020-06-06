@@ -5,4 +5,5 @@
 * `python_testing`
 * `python_http`
 * `python_erros`
-* `~ :) ~`
+
+# :)
