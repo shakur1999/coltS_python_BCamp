@@ -1,2 +1,8 @@
 # coltS_python_BCamp_errors
-`this is to keep coltS_python_BC error handling notes`
+`coltS_python_BC *overall* notes`
+
+# stacks used:
+~ :) ~
+* `python_testing`
+* `python_http`
+* `python_erros`
