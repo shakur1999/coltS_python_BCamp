@@ -24,3 +24,5 @@ def eat_junk(food):
     return f"I love {food} that am grubbing"
 food = input("Enter a food please: ")
 print(eat_junk(food))
+
+# TO BE CONTINUE...
