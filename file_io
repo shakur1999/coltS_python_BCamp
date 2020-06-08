@@ -1,1 +1,16 @@
-# CSV files modifications 
+#CSV files modifications 
+file = open(<file_name>)
+file.read(<file_name>) # read the text of the file
+file.seek(0) #seeks the location of the curser
+file.closed() #close file when done with it
+
+#OPTION 2 TO READ A FILE WITH KEYWORD "WITH"
+with open("file_name.txt") as file_name:
+    file.read()
+file.closed
+
+# =========================================================
+#writing to file and creating on the spot 
+# and naming it
+with open("creat_new_file_now", "w") as file_name:
+    file_name.write("smile" * 7)
