@@ -5,5 +5,7 @@
 * `python_testing`
 * `python_http`
 * `python_erros`
+* `python_fileIO`
+* `python_webScraping`
 
 # :-)
