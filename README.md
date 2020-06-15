@@ -6,6 +6,7 @@
 * `python_http`
 * `python_erros`
 * `python_fileIO`
+* `python_CSV`
 * `python_webScraping`
 
 # :-)
